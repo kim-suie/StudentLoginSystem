@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">  
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body id="register-page">
+    <div class="form-area">
+        <div class="wrapper" id="wrapper2">
+            <h2>Register</h2>       
+            <form action="/student-detail/register" method="post">             
+                <div class="box">
+                  <p>Enter your name</p>
+                    <input type="text" placeholder="Name" name="name" required>
+                </div>
+                <div class="box">
+                  <p>Enter your Roll no.</p>
+                    <input type="text" placeholder="Roll no." name="rollNo" required>
+                </div>
+                <div class="box">
+                  <p>Your reg. no.</p>
+                    <input type="text" placeholder="Registration no." name="registration" pattern="1[0-9]{9}" title="Please enter a valid reg no. e.g 1171824007" oninvalid="this.setCustomValidity(this.title)" oninput="this.setCustomValidity('')" required>
+                </div>
+                <div class="radio-group">
+                  <p>Your semester</p>
+                  <label>
+                    <input type="radio" name="semester" value="1" required> 1st
+                  </label>
+                  <label>
+                    <input type="radio" name="semester" value="2"> 2nd
+                  </label>
+                  <label>
+                    <input type="radio" name="semester" value="3"> 3rd
+                  </label>
+                  <label>
+                    <input type="radio" name="semester" value="4"> 4th
+                  </label>
+                  <label>
+                    <input type="radio" name="semester" value="5"> 5th
+                  </label>
+                  <label>
+                    <input type="radio" name="semester" value="6"> 6th
+                  </label>
+                </div>
+                <div class="box">
+                  <p>Your Date of Birth</p>
+                    <input type="date" name="dob" required>
+                </div>
+                <div class="radio-group">
+                  <p>Your Gender</p>
+                  <label>
+                    <input type="radio" name="gender" value="male" required> Male
+                  </label>
+                  <label>
+                    <input type="radio" name="gender" value="female"> Female
+                  </label>
+                  <label>
+                    <input type="radio" name="gender" value="other"> Other
+                  </label>
+                </div>
+                <div class="box">
+                  <p>Your address</p>
+                    <input type="text" placeholder="Address" name="address" required>
+                </div>
+                <div class="box">
+                  <p>Set password</p>
+                    <input type="password" placeholder="Password" name="password" minlength="4" maxlength="6" required>
+                </div>
+                <button type="submit" id="register">Register</button>
+            </form>
+        </div>
+    </div>
+    
+    
+    
+</body>
+</html>
