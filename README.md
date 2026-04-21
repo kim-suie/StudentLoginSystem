@@ -187,8 +187,13 @@ http://localhost:8080/student-detail/
 
 ## 📸 Screenshots
 
-*(Add screenshots here later)*
+| Register | Login |
+|-------|--------|
+| ![](screenshot/register.png) | ![](screenshot/login.png) |
 
+| Profile | Update Profile |
+|-------|--------|
+| ![](screenshot/profile.png) | ![](screenshot/updateProfile.png) |
 ---
 
 ## 👨‍💻 Contributors
