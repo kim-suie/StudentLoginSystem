@@ -200,7 +200,7 @@ http://localhost:8080/student-detail/
 
 * Sahil Sharma
 * Kartikey Kumar
-* Deekshant Kumar
+* Deekshant
 * Priyanshu Raj
 * Sanket Kumar
 
